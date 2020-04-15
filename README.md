@@ -12,6 +12,7 @@ La applicación es un sitio web solo de información de los servicios que ofrece
 
 Para mas información en los siguientes enlaces porfavor:
 link de mas imágenes en behance [aquí](https://yanchapanta.github.io/ServicioTecnicokitpcFP/index.html)
+
 link para ver website del proyecto [aquí](https://www.behance.net/gallery/95389755/staff-offering-technical-service)
 
 ### Images del proyecto
