@@ -23,5 +23,5 @@ link para ver website del proyecto [aquí](https://www.behance.net/gallery/95389
 **Sobre mi**
 ![image](https://user-images.githubusercontent.com/34762008/79296009-d7953080-7e9f-11ea-9561-9b29b5da791a.png)
 **Contacto**
-![image](https://user-images.githubusercontent.com/34762008/79296039-e380f280-7e9f-11ea-8613-7552874a3f36.png)
+![image](https://user-images.githubusercontent.com/34762008/79296342-cb5da300-7ea0-11ea-8efe-136d70e9e672.png)
 
