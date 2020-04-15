@@ -1,0 +1,29 @@
+
+body{
+	background:url("../img/rojo.jpg");
+	/*attachment=adjunto archivo.- la imagen no se acaba nunca, 
+	aunque se baje con el scrol*/
+	background-attachment: fixed;
+}
+#logo{
+	background: rgba(132, 28, 28, 0.93);
+}
+
+#menu{
+	
+	background: #330202;
+}
+#menu ul li:hover
+{
+	background: #ce3e3e;
+}
+
+.post a
+{
+	background: #ce3e3e;
+}
+
+.post a:hover
+{
+	background: #a81b1b;
+}

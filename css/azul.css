@@ -1,0 +1,32 @@
+
+body{
+	background:url("../img/cielo.jpg");
+	/*attachment=adjunto archivo.- la imagen no se acaba nunca, 
+	aunque se baje con el scrol*/
+	background-attachment: fixed;
+}
+#logo{
+	background: rgba(28, 70, 134, 0.93);
+}
+
+#menu{
+	
+	background: #032746;
+}
+
+
+#menu ul li:hover
+{
+	background: #4b65a4;
+}
+
+.post a
+{
+	background: #4b65a4;
+}
+
+.post a:hover
+{
+	background: #212e6d;
+}
+

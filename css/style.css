@@ -1,0 +1,335 @@
+@font-face{/*import fonts custom*/
+	font-family: "widelatin";
+	src: url("fonts/widelatin.ttf");
+}
+*{
+	/*Estilos que se aplican a todo */
+	margin:0px;/*Para que ningun elemento del html tenga margen*/
+	padding: 0px;/*Ninguno elemento tenga padding*/	
+	
+}
+.clearfix{
+	float:none;
+	clear:both;/*Limpiar los flotados*/
+}
+
+#global{
+	width: 65%;
+	margin: 0px auto;/*centrar*/
+	margin-top: 30px;
+	padding: 20px;
+	box-shadow: 5px 0px 4px gray; /*borde de sombra*/
+	background: white;
+
+}
+
+#logo{ 
+	display: flex;
+	justify-content: center;
+	font-family:"widelatin", Verdana,Arial; 
+	font-size: 20px;
+	letter-spacing: 4px;
+	line-height: 70px;/*Altura de la línea*/	color:white;
+	text-align: center;
+	margin-bottom: 30px;
+}
+#menu{
+	width: 100%;/*??*/
+	text-transform: uppercase;
+	font-family: Verdana, Arial;
+	margin-bottom: 20px;
+	background: black;
+}
+	/*(line-height: 50px; )=(height: 50px;) los dos deben de ser iguales
+	por que el uno toma la posision de la letra y el otro toma 
+	la posision de la transision*/
+
+
+#menu ul{
+	line-height: 50px;
+	list-style: none;
+}
+#menu ul li{
+
+	height: 50px;/*Altura del color de la transicion*/
+	display: inline-block;
+	transition: all 400ms;
+}
+
+
+
+#menu a
+{
+	display: block;/*??*/
+	padding-left: 10px;
+	padding-right: 10px;
+	color: white;
+	text-decoration: none; 	
+
+
+}
+
+#post{
+	width: 60%;
+	opacity: 0.9;
+	float: left;
+}
+
+.post
+{
+padding: 10px;
+font-size: 20px;
+}
+
+.post h2
+{	
+	font-family: Hevetica, Arial;
+	margin-bottom: 10px;
+}
+
+.post .fecha
+{
+	display: block;
+	color: black;
+	opacity: 0.6;
+	font-size:20px;
+	margin-top: 5px;
+}
+.post p
+{
+	text-align: justify;
+	line-height:22px;
+	margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.post a{
+	
+	color: white;
+	padding: 10px;
+	border: none;
+	margin-bottom: 15px;
+	text-decoration: none;
+	display: block;
+	width: 20%;
+	text-align: center;
+	font-size: 16px;
+}
+
+.post a:hover{
+	transition: all 300; 	
+}
+
+.bx-wrapper .bx-viewport{
+	height: 250px;
+}
+
+#sidebar{
+	width: 31%;
+	font-family: Hevetica, Arial;
+	float: right;
+}
+
+#sidebar span
+{	
+	background:white;
+	padding:3px;
+}
+
+#sidebar h4
+{
+	margin-top: 50px;
+	margin-bottom: 20px;
+	background:url(../img/lines.png);
+	text-align: center;	
+}
+
+#sidebar img
+{
+	width: 100%;
+}
+
+#sidebar p
+{
+	font-size: 14px;
+	text-align: justify;
+}
+
+#login form
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+ 
+
+form input[type="text"],
+form input[type="password"],
+form input[type="email"],
+form input[type="number"],
+form input[type="date"]{
+	padding:5px;
+	border-radius: 2px;
+	border: 1px solid #ccc;
+	width: 100%;
+	margin-bottom: 10px;
+	margin-top: 5px;
+}
+
+form input[type="submit"]{
+	background: #eee;
+	padding: 10px;
+	border:1px solid #ccc;
+	color: #333;
+	display: block;
+	margin: 0px auto;
+	cursor: pointer;
+}
+
+footer
+{	
+	width: 67%;
+	margin: 0px auto;/*centrar*/
+	margin-top: 15px;
+	padding: 10px;
+	background: #333;
+	color: white;
+	background: rgba(51, 51, 51, 0.70);
+
+	
+}
+
+#selectorTheme
+{
+	position: fixed;
+	background: rgba(51, 51, 51, 0.70);
+	top: 40%;
+	width: 50px;
+	height: 120px;	
+}
+
+#azul, 
+#rojo,
+#verde{
+	width: 30px;
+	height:30px;
+	margin: 0px auto;
+	border:1px solid white;	
+	display: block;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	cursor: pointer;
+}
+#azul
+{
+	background: #19519b;
+}
+
+#rojo
+{
+	background: #a22211;
+}
+
+#verde
+{
+	background:#1f361f;
+}
+.upButton
+{
+	color: white;
+	text-decoration: none;
+	padding-left: 10px;
+
+}
+#selectorButton
+{
+	top: 91.5%;
+	width: 50px;
+	height: 50px;
+	margin-left: 96%;	
+	background: rgba(51, 51, 51, 0.70);
+	float: left;
+}
+
+
+#selectorButton .up a{
+	margin: -10px;
+}
+
+#selectorButton .up a img{
+	margin-bottom: 23px;
+	width: 40px;
+	height: 40px;
+	margin:0px auto;
+	display: block;
+}
+
+#caja{
+	width:100%;
+	height: 60px;
+} 
+
+
+#pie{
+	width: 45%;
+	height: 50px;
+	float: left;
+}
+
+
+#up{
+		width: 45%;
+		height: 50px;
+		float: right;
+} 
+
+#up a{
+	float: right;
+}
+
+.up{
+	position: fixed;
+	background:rgba(51, 51, 51, 0.70);
+	top: 90%;
+	margin-left: 94%;
+	width: 75px;
+	height: 120px;
+}
+.up #upButt img{
+	display: block;
+	padding-top: 5px;
+	margin: 0px auto;
+	width: 58px;              
+}
+#box{
+	width: 60%;
+	margin-top: 40px;
+	float:left;
+}
+
+#acordeon{
+	margin-top: 20px;
+}
+
+#reloj{
+	font-size: 40px;
+	font-family: Helvetica, Arial;
+	font-weight: bold;
+	color: #333;
+	border: 4px dashed #333;
+	width: 30%;
+	padding: 30px;
+	margin: 0px auto;
+}
+#form_contact{
+	width: 75%; 
+	font-family: Helvetica, Arial;
+}
+.form-error{
+    font-size: 11px;
+    background:  #ca3413;
+	color:white;
+	padding: 2px;
+	padding-right: 5px;
+	padding-left: 5px;
+	width: 65%;
+}

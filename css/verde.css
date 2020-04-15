@@ -1,0 +1,30 @@
+
+
+body{
+	background:url("../img/hojas.jpg");
+	/*attachment=adjunto archivo.- la imagen no se acaba nunca, 
+	aunque se baje con el scrol*/
+	background-attachment: fixed;
+}
+#logo{	
+	background: rgba(1, 27,1 , 0.88);
+}
+#menu{
+	
+	background: #101b10eb;
+}
+
+#menu ul li:hover
+{
+	background: #367709;
+}
+
+.post a
+{
+	background: #367709;
+}
+
+.post a:hover
+{
+	background: #16420d;
+}

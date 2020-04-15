@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	
+	<!--Estilos CSS-->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link id="theme" rel="stylesheet" type="text/css" href="css/azul.css">
+
+	<!--jQuery-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="js/jquery-ui/jquery-ui.min.css">
+	<link rel="stylesheet" type="text/css" href="js/jquery-ui/jquery-ui.structure.min.css">
+	<link rel="stylesheet" type="text/css" href="js/jquery-ui/jquery-ui.theme.min.css">
+	<script type="text/javascript" src="js/jquery-ui/jquery-ui.min.js"> </script>
+
+	<!--Plugin Validation-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js"></script>
+
+	<!--Mi script-->
+  	<script type="text/javascript"src="js/main.js" ></script>
+
+
+</head>
+<body>
+
+	<div id="selectorTheme">
+		<div id="azul"></div>
+		<div id="rojo"></div>
+		<div id="verde"></div>
+	</div>
+	<section id="global">
+		
+		<!--Cabecera-->
+		<header >
+			<div id="logo">
+				<h1>Servicio Técnico KitPC FP</h1>
+			</div>
+
+			<div class="clearfix"></div><!--Limpia los flotados añadido arriga-->
+
+			<nav id="menu">
+				<ul>
+
+					<li><a href="index.html">Inicio</a></li>
+					<li><a href="reloj.html">Reloj</a></li>
+					<li><a href="about.html">Sobre mi</a></li>
+					<li><a href="contacto.html">Contacto</a></li>
+
+				</ul>
+			</nav>
+		</header>	
+		
+		<!--Contenido-->
+		<section id="content">
+			<div id="box">
+				<!--Cargar reloj-->
+				<h2>Contacto</h2>
+				<div id="box"> 
+					<form action="#" id="form_contact" method="POST">
+						<label for="name">Nombre</label>
+						<input type="text" name="name"data-validation="alphanumeric">	
+
+						<label for="first_name">apellido</label>
+						<input type="text" name="first_name" data-validation="alphanumeric">
+
+						<label for="email">E-mail</label> 
+						<input type="email" name="email" data-validation="email">
+
+						<label>Sexo</label>
+						<select id="sexo" data-validation="required">
+							<option value="hombre">Hombre</option>
+							<option value="mujer">Mujer</option>
+						</select>	
+
+						<label for="date">Fecha de Nacimiento</label>
+						<input type="date" name="date" data-validation="date" data-validation-format="dd-mm-yyyy">
+
+						<label for="years">Edad</label>
+						<input type="number" name="years" data-validation="number">
+
+						<input type="submit" value="Enviar">
+
+					</form>
+				</div>
+				
+			</div>
+			<sede id="sidebar">
+				<div id="about">
+				</div>	
+				<div id="login">
+					<h4>
+						<span>Quien soy YO!!</span>
+					</h4>
+					<form>					
+						<label for="name">Nombre</label>
+						<input type="text" name="name"id="form_name">
+
+
+						<label for="email">Correo</label>
+						<input type="email" name="email">
+
+						<label for="password">Password</label>
+						<input type="password" name="password">
+
+						<input type="submit" value="Enviar">
+					</form>
+				</div>			
+			</sede>
+			<div class="clearfix"></div><!--Limpia los flotados añadido arriga-->
+
+		</section>
+
+	</section>
+	<footer>
+		<div id="caja">
+			<div id="pie">
+				<p>KitPC FP Servicio Técnico autor web ydmarco &copy;</p>
+			</div>
+
+			<div id="up">			
+				<a href="#" id="upButton">
+					<img src="img/up.png">
+				</a>
+			</div>			
+		</div>		
+	</footer>
+	<div class="up">			
+		<a href="#" id="upButt">
+			<img src="img/up.png">
+		</a>
+	</div>
+</body>
+</html>
